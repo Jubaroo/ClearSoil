@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="modlauncher">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/modlauncher.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
