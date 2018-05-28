@@ -71,7 +71,8 @@ public class SMFlattenAction implements ModAction{
                     digging = skills.learn(1008, 0.0F);
                 }
 
-                if( digging.knowledge < Skill ){
+                //if( digging.knowledge < Skill ){
+                if( digging.getRealKnowledge() < Skill ){
                     return null;
                 }
 
